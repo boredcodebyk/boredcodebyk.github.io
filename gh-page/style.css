@@ -6,16 +6,16 @@
 
 body {
   font-family: 'Courier New', Courier, monospace;
-}
-
-.app {
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  padding: 30px;
   background-color: #262626;
   color: #F2F3FF;
+}
+
+.app {
+  margin: 30px !important;
 }
 
 a {
