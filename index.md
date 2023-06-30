@@ -1,3 +1,7 @@
+---
+title: boredcodebyk
+---
+
 # 💫 About Me:
 🔭 I’m currently working on [mintcalc](https://github.com/boredcodebyk/mintcalc/), [mint_task](https://github.com/boredcodebyk/mint_task) and [mint_files](https://github.com/boredcodebyk/mint_files)<br>🌱 I’m currently learning Flutter<br>⚡ Fun fact: I'm also an [digital artist](https://www.instagram.com/illusbyk/)
 
