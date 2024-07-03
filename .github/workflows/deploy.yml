@@ -34,8 +34,9 @@ jobs:
     - name: Install dependencies
       run: pnpm install
 
-    - name: Install dependencies
-      run: pnpm install
+    - name: build site
+      run: pnpm run build
+
     - name: Upload production-ready build files
       uses: actions/upload-artifact@v3
       with:
