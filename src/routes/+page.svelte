@@ -26,3 +26,7 @@
   
   <div id="#about" bind:this={readme}></div>
 </div>
+
+<svelte:head>
+  <title>boredcodebyk</title>
+</svelte:head>
