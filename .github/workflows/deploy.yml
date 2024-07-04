@@ -35,7 +35,10 @@ jobs:
 
     - name: build site
       run: pnpm run build
-
+    - name: Add CNAME to build
+      run: |
+        touch ./build/CNAME
+        echo 'boredcodebyk.is-a.dev' >> ./build/CNAME
     - name: Upload production-ready build files
       uses: actions/upload-pages-artifact@v3
       with:
@@ -54,6 +57,6 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
 
       
