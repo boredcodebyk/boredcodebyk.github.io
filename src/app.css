@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@layer base {
+    :root {
+        font-family: "JetBrains Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .body {
+        font-family: "JetBrains Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    a {
+        @apply text-amber-100 no-underline;
+    }
+
+    a:hover {
+        @apply text-amber-100 bg-amber-900
+    }
+
+    a:active {
+        @apply text-amber-100 bg-amber-900
+    }
+}
