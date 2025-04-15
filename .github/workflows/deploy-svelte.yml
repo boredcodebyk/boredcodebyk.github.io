@@ -32,7 +32,7 @@ jobs:
       - name: Build static files
         run: |
           npm i
-          npm build
+          npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: "build/"
